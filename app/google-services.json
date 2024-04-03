@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "743855041852",
+    "firebase_url": "https://twistytails-5d314-default-rtdb.firebaseio.com",
+    "project_id": "twistytails-5d314",
+    "storage_bucket": "twistytails-5d314.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743855041852:android:9fce49d983fce63c874239",
+        "android_client_info": {
+          "package_name": "com.example.twistytails"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuVlSB_dLAFM4UfZJm1qiM4hL58CVaAW0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

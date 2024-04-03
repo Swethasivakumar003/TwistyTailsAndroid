@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/slide"
+        android:layout_width="332dp"
+        android:layout_height="332dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginTop="60dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/get_started_img"
+        android:layout_marginBottom="70dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/sliderView"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <View
+        android:id="@+id/sliderView"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:background="@drawable/slider_bg"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+    <TextView
+        android:id="@+id/infoTitle"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="27sp"
+        android:lineSpacingExtra="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="28dp"
+        android:text="Comparison of payments"
+        android:textAlignment="textStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/sliderView"/>
+    <TextView
+        android:id="@+id/infoMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#616365"
+        android:textSize="16sp"
+        android:textAlignment="textStart"
+        android:layout_marginTop="18dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="20dp"
+        android:lineSpacingExtra="7dp"
+        android:text="This graph compares the previous electricity payments with the present one to give you the desired understanding with the help of this visual medium."
+        app:layout_constraintTop_toBottomOf="@id/infoTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
